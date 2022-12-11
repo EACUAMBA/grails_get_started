@@ -106,9 +106,9 @@ hibernate:
 dataSource:
     pooled: true
     jmxExport: true
-    driverClassName: com.mysql.cj.driver.Drive
-    username: root
-    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
 
 environments:
     development:
