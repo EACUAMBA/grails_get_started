@@ -1,2 +1,2 @@
-# grails_get_started
+# Grails Getting Start
 Some projects created with grails.
