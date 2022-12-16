@@ -32,6 +32,8 @@ configurations {
     }
 }
 
+//ext['tomcat.version'] = '7.0.59'
+
 dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     compileOnly "io.micronaut:micronaut-inject-groovy"
